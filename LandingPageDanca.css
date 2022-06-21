@@ -1,0 +1,138 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+html{
+        
+    background: linear-gradient(45deg, #ff84ea, #f833cd, #fd5776, #fdccd5);
+    background-size: 200%, 200%;
+    align-items: center;
+    height: 162vh;
+    width: 98vw;
+    animation: colors 15s ease infinite;
+
+}
+@keyframes colors{
+    0%{
+        background-position: 0%, 50%;
+
+    }
+    50%{
+        background-position: 100%, 50%;
+
+    }
+    100%{
+        background-position: 0%, 50%;
+
+    }
+        
+}
+
+.sapatilha{
+    height: 72px;
+}
+.menu{
+    display: flex;
+    gap: 32px;
+}
+.menu-item{
+    font-family: 'Sarala', sans-serif;
+    color: white;
+}
+.menu-item:hover{
+    color: #000000;
+}
+
+.cabeçalho{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 24px;
+}
+
+.conteudo{
+    margin-bottom: 48px;
+    border-top: 0.4px solid white;
+}
+
+
+.PrimeiraSessão{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+.PrimeiraSessão-texto{
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+.PrimeiraSessão-imagem{
+    height: 430px;
+    padding-top: 48px;
+}
+.Titulo{
+    font-family: 'Righteous', cursive;
+    font-weight: 400;
+    font-size: 64px;
+    color: white;
+}
+.subtitulo{
+    font-family: 'Sarala', sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+    color: white;
+}
+.botão{
+    background-color: white;
+    width: 180px;
+    height: 60px;
+    border: none;
+    box-shadow: 4px 5px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 20px;
+    font-family: 'Sarala', sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+    color: black;
+}
+
+.botão:hover{
+    background-color: #6d6d6d;
+ 
+}
+
+.SegundaSessão{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
+    margin-top: 48px;
+}
+
+.Titulo-SegundaSessão{
+    border-top: 0.4px solid white;
+    padding-top: 48px;
+    font-family: 'Righteous', cursive;
+    font-weight: 400;
+    font-size: 24px;
+    color: white;
+    margin-bottom: 16px;
+}
+.ParagrafoSegundaSessão{
+    font-family: 'Sarala', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    color: white;
+}
+.footer{
+    padding: 32px;
+    border-top: 0.4px solid white;
+}
+.ImagemFooter{
+    height: 120px;
+    display: block;
+    margin: 0 auto;
+}
